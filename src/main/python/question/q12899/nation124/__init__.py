@@ -38,4 +38,4 @@ def solution(n):
 
     return ''.join(answer)
 
-print(solution(10))
+print(solution(5000000000))
