@@ -26,7 +26,7 @@ public class FindPrimeN {
 	public int solution(int n) {
 		int cnt = 1;
 		for (int i = 3; i <= n; i += 2) {
-			for (int j = 3; j <= (int)i/j; i += 2) {
+			for (int j = 3; j <= (int)i/j; j += 2) {
 				if (i % j == 0) {
 					cnt -= 1;
 					break;
