@@ -1,6 +1,6 @@
 *.project
 *.jar
-*/target
+*target/*
 *.idea*
 *.classpath
 bin/*
