@@ -1,4 +1,4 @@
-package main.q12921.findPrimeN;
+package q12921.findPrimeN;
 
 /*
 소수 찾기

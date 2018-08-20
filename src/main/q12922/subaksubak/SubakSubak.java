@@ -1,4 +1,4 @@
-package main.q12922.subaksubak;
+package q12922.subaksubak;
 
 public class SubakSubak {
 

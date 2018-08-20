@@ -1,4 +1,4 @@
-package main.q12926.caesarCipher;
+package q12926.caesarCipher;
 
 public class ceasarCipher {
 

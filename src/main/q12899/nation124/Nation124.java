@@ -1,4 +1,4 @@
-package main.q12899.nation124;
+package q12899.nation124;
 
 /*
 문제 설명

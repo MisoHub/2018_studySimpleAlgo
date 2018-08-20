@@ -1,4 +1,4 @@
-package main.q12925.string2int;
+package q12925.string2int;
 
 public class String2Int {
 	public static void main(String[] args) {
