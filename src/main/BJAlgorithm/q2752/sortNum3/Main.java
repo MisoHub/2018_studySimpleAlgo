@@ -1,4 +1,4 @@
-package main.BJAlgorithm.q2752.sortNum3;
+package BJAlgorithm.q2752.sortNum3;
 
 import java.util.ArrayList;
 import java.util.Arrays;

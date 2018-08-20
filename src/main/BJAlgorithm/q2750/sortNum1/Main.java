@@ -1,4 +1,4 @@
-package BJAlgorithm.q2750.arrangeN;
+package BJAlgorithm.q2750.sortNum1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
