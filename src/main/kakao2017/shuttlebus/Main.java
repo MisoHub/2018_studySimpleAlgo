@@ -30,23 +30,17 @@ public class Main {
 
 		// set start_time - find last shuttle time
 		int dtime = START_TIME;
-		
-		// set shuttle lists 
-		boolean[] isRemainSuttle = new boolean[n];
-		for(boolean b : isRemainSuttle) {
-			b = true;
-		}
-
 		int deadline = 0;
+		
 		// for with n , t, m
 		for (int i = 0; i < n; i++) {
 			// set cnt of member
 			int cnt = m;
-
+			
+			deadline = dtime;
 			// check crew members... 
 			while(clist.size()>0){
 				int keytime = clist.get(0);
-				deadline = dtime;
 				// if fastest crew arrival time is greater than shuttle time
 				if (keytime > dtime) {
 					break;
@@ -56,7 +50,7 @@ public class Main {
 					// decrease wait crew num
 					if (map.get(keytime) > cnt) {
 						map.put(keytime, map.get(keytime) - cnt);
-						
+						deadline = keytime-1;
 						break;
 					} else {
 						cnt = cnt - map.get(keytime);
@@ -70,7 +64,6 @@ public class Main {
 								// increase time (+1h -60m)
 								deadline -= 40;
 							}
-							isRemainSuttle[i] = false;
 							break;
 						}
 					}
@@ -78,32 +71,20 @@ public class Main {
 			}
 
 			
-			dtime += t;
-			if (dtime % 100 >= 60) {
-				// increase time (+1h -60m)
-				dtime += 40;
-			}
+            if(dtime%100 +t >=60){
+                dtime += 40;
+            }
+               dtime += t;
+			
+			if(dtime>=10000)
+				break;
 		}
 
-		int nSuttle=-1;
-		// find remain seat shuttle
-		for( int i = isRemainSuttle.length-1; i>=0;i--) {
-			if(isRemainSuttle[i]) {
-				nSuttle = i;
-			}
-		}
-		dtime = START_TIME;
-		for(int i=0; i<nSuttle;i++) {
-			dtime += t;
-			if (dtime % 100 >= 60) {
-				// increase time (+1h -60m)
-				dtime += 40;
-			}
-		}
-		//
+
 		answer =String.valueOf(deadline);
 		for(int i=answer.length()-4; i <0;i++)
 			answer = "0"+answer;
+	
 		answer = answer.substring(0, 2)+":"+answer.substring(2,4);
 		
 		return answer;
