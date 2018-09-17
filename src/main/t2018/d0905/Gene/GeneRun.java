@@ -11,7 +11,6 @@ public class GeneRun {
 				{ 0, 1, 2, 1 }, // G
 				{ 1, 0, 1, 2 }}; // T
 		
-		
 		String[] input = new String[2];
 
 	}
