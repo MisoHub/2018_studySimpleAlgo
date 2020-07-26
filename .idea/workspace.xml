@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43a3961b-3de3-4786-8ec5-6a438dfe4e8c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/q12911/q12954/NumberGAP/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/q12911/q12982/budget/Main.java" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q1475/roomNB/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q6064/kaingcalendar/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q10250/acmhotel/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>def solution\(m\,n\,x\,y\)\:\n    import math\n    lcm \= int\(m\*n\/ math\.gcd\(m\,n\)\) \# gcd \= 최대공약수 \= 유클리드 호제법\n\n    idx \= 0\n    while idx\*m\+x \&lt;\= lcm\:\n        if n is y and m is x\:\n            return lcm\n\n        if \(idx\*m\+x\)\%n \=\= y \&amp;\&amp; n \!\=y \:\n            return idx\*m\+x\n        else\:\n            idx\+\=1\n            continue\n    return \-1\n\n\n\n\n\# get test num\nnTest \= int\(input\(\)\)\ninputList\=\[\]\n\n\# get inputs\nfor i in range\(0\,nTest\)\:\n    m \,n\, x\, y \= map\(int\, input\(\)\.split\(\&quot; \&quot;\)\)\n    inputList\.append\(\[m \,n\, x\, y \]\)\n\n\# print results\nfor v in inputList\:\n    print\(solution\(v\[0\]\,v\[1\]\,v\[2\]\,v\[3\]\)\)\n\n\n</find>
+      <find>def solution\(m\,n\,x\,y\)\:\n    import math\n    lcm \= int\(m\*n\/ math\.gcd\(m\,n\)\) \# gcd \= 최대공약수 \= 유클리드 호제법\n\n    idx \= 0\n    while idx\*m\+x \&lt;\= lcm\:\n        if n is y \:\n            if m is x\:\n                return lcm\n            elif \(idx\*m\+x\)\%n is 0 \:\n                return idx \* m \+ x\n        else\:\n            if \(idx\*m\+x\)\%n is y\:\n                return idx\*m\+x\n            else\:\n                idx\+\=1\n    return \-1\n\n\n\n\n\# get test num\nnTest \= int\(input\(\)\)\ninputList\=\[\]\n\n\# get inputs\nfor i in range\(0\,nTest\)\:\n    m \,n\, x\, y \= map\(int\, input\(\)\.split\(\&quot; \&quot;\)\)\n    inputList\.append\(\[m \,n\, x\, y \]\)\n\n\# print results\nfor v in inputList\:\n    print\(solution\(v\[0\]\,v\[1\]\,v\[2\]\,v\[3\]\)\)\n\n\n</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/q12928/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/q12930/buildWeirdStr/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/q12931/sumNum/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/q12932/revArray/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/q12905/findBiggestSquare/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/BJAlgorithm/q10250/acmhotel/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/BJAlgorithm/q1924/y2017/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/BJAlgorithm/q2775/aptqueen/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/BJAlgorithm/q1475/roomNB/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/BJAlgorithm/q6064.kaingcalendar.py" />
+        <option value="$PROJECT_DIR$/src/main/BJAlgorithm/q6064/kaingcalendar/__init__.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="404" />
+    <option name="y" value="304" />
+    <option name="width" value="1382" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q1475" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q1475" type="462c0819:PsiDirectoryNode" />
+              <item name="roomNB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q1924" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q1924" type="462c0819:PsiDirectoryNode" />
+              <item name="y2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q2775" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q2775" type="462c0819:PsiDirectoryNode" />
+              <item name="aptqueen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q6064" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q6064" type="462c0819:PsiDirectoryNode" />
+              <item name="kaingcalendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q10250" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="BJAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="q10250" type="462c0819:PsiDirectoryNode" />
+              <item name="acmhotel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12899" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12899" type="462c0819:PsiDirectoryNode" />
+              <item name="nation124" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12921" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12921" type="462c0819:PsiDirectoryNode" />
+              <item name="findPrimeN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12922" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12922" type="462c0819:PsiDirectoryNode" />
+              <item name="subaksubak" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12925" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12925" type="462c0819:PsiDirectoryNode" />
+              <item name="string2int" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12926" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018_studySimpleAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_studySimpleAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="q12926" type="462c0819:PsiDirectoryNode" />
+              <item name="caesarCipher" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Desmond/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\2018_studySimpleAlgo\src\main\q12930\buildWeirdStr" />
+      <recent name="D:\workspace\2018_studySimpleAlgo\src\main\q12928\sumOfSubM" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.__init__ (3)">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/BJAlgorithm/q2775/aptqueen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2018_studySimpleAlgo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/BJAlgorithm/q2775/aptqueen/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="__init__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/BJAlgorithm/q1475/roomNB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2018_studySimpleAlgo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/BJAlgorithm/q1475/roomNB/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="__init__ (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/BJAlgorithm/q6064/kaingcalendar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2018_studySimpleAlgo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/BJAlgorithm/q6064/kaingcalendar/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="__init__ (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/BJAlgorithm/q10250/acmhotel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2018_studySimpleAlgo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/BJAlgorithm/q10250/acmhotel/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/BJAlgorithm/q1924/y2017" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="2018_studySimpleAlgo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/BJAlgorithm/q1924/y2017/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.__init__ (5)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="2" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.__init__ (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.__init__ (3)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.__init__ (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__init__ (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="4" class="java.lang.String" itemvalue="Python.__init__ (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43a3961b-3de3-4786-8ec5-6a438dfe4e8c" name="Default" comment="" />
+      <created>1532764321575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532764321575</updated>
+    </task>
+    <task id="LOCAL-00001" summary="solve q12905, q12928, q12930, q12931, q12932 with python&#10;-가장 큰 정사각형 찾기&#10;-자연수를 뒤집어 배열로 만들기&#10;-자릿수 더하기&#10;-이상한 문자 만들기 &#10;-약수의 합">
+      <created>1532788685153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532788685153</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1858" height="1096" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2019544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50509167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="solve q12905, q12928, q12930, q12931, q12932 with python&#10;-가장 큰 정사각형 찾기&#10;-자연수를 뒤집어 배열로 만들기&#10;-자릿수 더하기&#10;-이상한 문자 만들기 &#10;-약수의 합" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve q12905, q12928, q12930, q12931, q12932 with python&#10;-가장 큰 정사각형 찾기&#10;-자연수를 뒤집어 배열로 만들기&#10;-자릿수 더하기&#10;-이상한 문자 만들기 &#10;-약수의 합" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/q12931/sumNum/__init__.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/BJAlgorithm/q6064/kaingcalendar/__init__.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties exception="BaseException" />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="37" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="i" language="Python" />
+        <watch expression="j" language="Python" />
+        <watch expression="board[x][y]" language="Python" />
+        <watch expression="board[i][j]" language="Python" />
+        <watch expression="min(board[x + 1][y], board[x][y + 1], board[x + 1][y + 1])" language="Python" />
+        <watch expression="list(nstr)" language="Python" />
+        <watch expression="round(2.5)" language="Python" />
+        <watch expression="idx*m+x" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q1475/roomNB/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q10250/acmhotel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q6064/kaingcalendar/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q1475/roomNB/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q10250/acmhotel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q2775/aptqueen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q10250/acmhotel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/q12928/sumOfSubM/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12930/buildWeirdStr/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/q12931/sumNum/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/q12932/revArray/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12905/findBiggestSquare/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12928/sumOfSubM/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/q12930/buildWeirdStr/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12931/sumNum/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/q12932/revArray/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12905/findBiggestSquare/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12928/sumOfSubM/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12930/buildWeirdStr/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12931/sumNum/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/q12932/revArray/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12928/sumOfSubM/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12928/sumOfSubM/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12930/buildWeirdStr/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/q12931/sumNum/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/q12932/revArray/__init__.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/q12905/findBiggestSquare/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q1011/flymetothe/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q1924/y2017/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q2775/aptqueen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q1475/roomNB/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q6064.kaingcalendar.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q10250/acmhotel/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BJAlgorithm/q6064/kaingcalendar/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
